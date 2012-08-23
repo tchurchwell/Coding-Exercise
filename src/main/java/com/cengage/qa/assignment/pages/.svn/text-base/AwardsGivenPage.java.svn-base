@@ -1,0 +1,29 @@
+package com.cengage.qa.assignment.pages;
+
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+public class AwardsGivenPage extends BasePage{
+
+	protected AwardsGivenPage(WebDriver driver) {
+		super(driver);
+	}
+	
+    public int countMainTableColumnHeaders() {
+    	int count = 0;
+    	
+    	WebElement tableArticles = driver.findElement(By.id("articles")); 
+    	List<WebElement> tableCols = tableArticles.findElements(By.xpath("id('articles')/thead/tr/th"));
+    	
+    	count = tableCols.size();
+    	
+    	return count;
+    }
+
+	
+
+}

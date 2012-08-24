@@ -3,7 +3,6 @@ package com.cengage.qa.assignment.pages;
 import static com.cengage.qa.assignment.Environment.PRODUCT_URL;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ByPartialLinkText;
 import org.openqa.selenium.WebDriver;
 
 public class HomePage extends BasePage {

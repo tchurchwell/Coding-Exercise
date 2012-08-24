@@ -4,13 +4,13 @@ The agile testing coding exercise is designed to demonstrate an agile tester's a
 
 Along the way, other attributes indirectly tested include natural curiosity, passion, autodidacticism, courage, leadership, communication skills, and attention to detail. 
 
- To get started with the exercise, you will need to have:
+To get started with the exercise, you will need to have:
   
 •  Something to edit Java code (such as the Eclipse IDE)
 
-•	A Subversion client (such as the Subclipse plugin for Eclipse)
+•	 Apache Maven
 
-•	A way to run TestNG unit tests (such as the TestNG plugin for Eclipse)
+•	 Firefox v4 - v13
  
-Download and install Eclipse.  Install a Subversion Client and then after setting up your Subversion client, check out the coding exercise 
+Download and install Maven and Eclipse.  Clone Git Repository to your local machine or download as a zip from Github.  Once you have downloaded or cloned the project locally, import into Eclipse as a Maven Project to get started.
 
